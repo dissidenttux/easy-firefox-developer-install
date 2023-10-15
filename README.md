@@ -5,8 +5,7 @@ Easily download [Firefox Developer Edition](https://www.mozilla.org/en-US/firefo
 ### Install
 1. Clone repository into the `~/Downloads` folder into your home directory:
 ```
-cd ~/Downloads
-git clone git@github.com:dissidenttux/easy-firefox-developer-install.git
+cd ~/Downloads; git clone git@github.com:dissidenttux/easy-firefox-developer-install.git
 ```
 2. Make install script executable
 ```
