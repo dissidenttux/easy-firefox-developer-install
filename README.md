@@ -21,7 +21,7 @@ sudo bash ~/Downloads/easy-firefox-developer-install/install.sh
 ```
 5. Remove project folder
 ```
-sudo rm -r ~/Downloads/easy-firefox-developer-install
+sudo rm -r ~/Downloads/easy-firefox-developer-install; cd
 ```
 
 ### Uninstall
@@ -35,5 +35,5 @@ sudo bash ~/Downloads/easy-firefox-developer-install/uninstall.sh
 ```
 3. Remove project folder
 ``` 
-sudo rm -r ~/Downloads/easy-firefox-developer-install           
+sudo rm -r ~/Downloads/easy-firefox-developer-install; cd
 ```
