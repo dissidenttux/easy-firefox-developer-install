@@ -6,4 +6,4 @@ cp /opt/firefox /opt/firefox-dev
 # move the launch script to the user-made script folder
 mv ~/Download/easy-firefox-developer-install/firefox-dev /usr/local/bin/
 # make the launch script executable
-sudo chmod a+x /usr/local/bin/firefox-dev
+chmod a+x /usr/local/bin/firefox-dev
