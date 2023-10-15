@@ -25,6 +25,10 @@ sudo rm -r ~/Downloads/easy-firefox-developer-install; cd
 ```
 
 ### Uninstall
+0. **NOTE: DO STEP ONLY IF PROJECT FOLDER IS DELETED** Clone repository into the `~/Downloads` folder into your home directory:
+```
+cd ~/Downloads; sudo git clone https://github.com/dissidenttux/easy-firefox-developer-install.git; c>
+```
 1. Make uninstall script executable
 ```
 sudo chmod a+x ~/Downloads/easy-firefox-developer-install/uninstall.sh 
