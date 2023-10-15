@@ -27,7 +27,7 @@ sudo rm -r ~/Downloads/easy-firefox-developer-install; cd
 ### Uninstall
 1. Make uninstall script executable
 ```
-sudo chmod a+x ~/Downloads/easy-firefox-developer-install/install.sh 
+sudo chmod a+x ~/Downloads/easy-firefox-developer-install/uninstall.sh 
 ```
 2. Execute uninstall script with administrative permissons
 ```
