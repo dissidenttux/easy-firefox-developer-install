@@ -7,15 +7,19 @@ Easily download [Firefox Developer Edition](https://www.mozilla.org/en-US/firefo
 ```
 cd ~/Downloads; sudo git clone https://github.com/dissidenttux/easy-firefox-developer-install.git
 ```
-2. Make install script executable
+2. Get FF Dev Edition (plus start script) and move it to optional software and user-made scripts directory
+```
+wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev-current.tar.bz2; sudo mv ~/Downloads/easy-firefox-developer-install/firefox-dev-current.tar.bz2 /opt/; sudo cp ~/Download/easy-firefox-developer-install/firefox-dev /usr/local/bin/
+```
+3. Make install script executable
 ```
 sudo chmod a+x ~/Downloads/easy-firefox-developer-install/install.sh
 ```
-3. Execute install script with administrative permissions
+4. Execute install script with administrative permissions
 ```
 sudo bash ~/Downloads/easy-firefox-developer-install/install.sh
 ```
-4. Remove project folder
+5. Remove project folder
 ```
 rm ~/Downloads/easy-firefox-developer-install
 ```
