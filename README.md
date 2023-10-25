@@ -9,7 +9,7 @@ cd ~/Downloads; sudo git clone https://github.com/dissidenttux/easy-firefox-deve
 ```
 2. Get FF Dev Edition (plus start script) and move it to optional software and user-made scripts directory
 ```
-sudo wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev-current.tar.bz2; sudo mv ~/Downloads/easy-firefox-developer-install/firefox-dev-current.tar.bz2 /opt/; sudo cp ~/Downloads/easy-firefox-developer-install/firefox-dev /usr/local/bin/
+sudo wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US" -O firefox-dev-current.tar.bz2; sudo mv ~/Downloads/firefox-dev-current.tar.bz2 /opt/; sudo cp ~/Downloads/easy-firefox-developer-install/firefox-dev /usr/local/bin/
 ```
 3. Make install script executable
 ```
